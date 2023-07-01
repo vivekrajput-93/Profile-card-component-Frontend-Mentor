@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    background-color: #1AA0AC;
+    background-image: url(./images/bg-pattern-top.svg), 
+    url(images/bg-pattern-bottom.svg);
+    background-position: right 45vw bottom 45vh, 45vw 45vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow: hidden;
+
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: whitesmoke;
+    width: 320px;
+    border-radius: 10px;
+ 
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.img-2 {
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    left: 110px;
+    top: -50px
+
+}
+
+h3 {
+    text-align: center;
+    margin-top: -30px;
+    font-size: 18px;
+}
+
+h3 > span {
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 59%);
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 18px;
+    padding-bottom: 0px;
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 8px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin: 0px 10px 10px 10px;
+    color: hsl(0, 0%, 59%);
+    letter-spacing: .1em;
+}
+
+hr {
+    border: 1px solid grey;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    position: relative;
+    top: 5px; 
+    padding-top: 5px;
+  }
