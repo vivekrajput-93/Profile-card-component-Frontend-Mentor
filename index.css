@@ -57,6 +57,7 @@ h3 {
     text-align: center;
     margin-top: -30px;
     font-size: 18px;
+
 }
 
 h3 > span {
@@ -67,7 +68,7 @@ h3 > span {
 
 p {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: hsl(0, 0%, 59%);
 }
 
@@ -88,14 +89,12 @@ p {
     font-size: 8px;
     padding-top: 0px;
     padding-left: 0px;
-    margin: 0px 10px 10px 10px;
+    margin: 0px 10px 20px 10px;
     color: hsl(0, 0%, 59%);
     letter-spacing: .1em;
 }
 
-hr {
-    border: 1px solid grey;
-}
+
 
 .attribution { 
     font-size: 11px; text-align: center; 
